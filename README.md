@@ -36,13 +36,16 @@ Atividade prática de refatoração de um sistema legado de logística chamado F
 ---
 
 ## Estrutura do Projeto
-├── Veiculo.java                  # Classe abstrata pai dos veículos
-├── Caminhao.java                 # Estende Veiculo, representa caminhão
-├── Moto.java                     # Estende Veiculo, representa moto
-├── Pacote.java                   # Representa o pacote a ser entregue
-├── Rota.java                     # Associa um Pacote a um Veiculo
-├── Principal.java                # Classe principal de execução
-└── diagrama-fiapdelivery.png     # Diagrama UML de classes
+
+| Arquivo                      | Descrição                                      |
+|------------------------------|------------------------------------------------|
+| Veiculo.java                 | Classe abstrata pai dos veículos               |
+| Caminhao.java                | Estende Veiculo, representa caminhão           |
+| Moto.java                    | Estende Veiculo, representa moto               |
+| Pacote.java                  | Representa o pacote a ser entregue             |
+| Rota.java                    | Associa um Pacote a um Veiculo                 |
+| Principal.java               | Classe principal de execução                   |
+| diagrama-fiapdelivery.png    | Diagrama UML de classes                        |
 
 ---
 
